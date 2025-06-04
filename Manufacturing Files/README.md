@@ -1,9 +1,11 @@
 # Ordering Process for Development Boards
 ![Image of Embedded Development Board](./img/devBoard.jpg)
+
 This file outlines a procedure to order development boards from [PCBWay](https://www.pcbway.com/).  
-[!Note] These instructions referece manufacturer web pages that are not under my control.  As a 
-result the web interfaces may be modified, changing the look and feel of the interface.  In this
-event, you will need to adapt the instructions.
+>[!NOTE] 
+>These instructions referece manufacturer web pages that are not under my control.  As a 
+result the web interfaces may be modified changing the look and feel of the interface.  In this
+event, you will need to adapt the instructions to the current interface.
 
 ## Step 1: Verify BOM through Digikey
 You will be providing PCBWay with the bill of materials (BOM) using parts
@@ -44,23 +46,41 @@ button when yoy have verified these selections.
    - Quantity: Whatever you need, in this case 50.
    - Do you accept alternatives/substitutes made in China?  Yes
    ![First Step of PCBWay order](./img/pcbWay01.PNG)
-5. Expand **Other Parameters options**. Fill in the text boxes with the values shown below.
+
+4. Expand **Other Parameters options**. Fill in the text boxes with the values shown below.
    ![Second Step of PCBWay order](./img/pcbWay02.PNG)
-6. Expand **PCB Specifications options**.  Fill in the text boxes with the values shown below.
+   
+5. Expand **PCB Specifications options**.  Fill in the text boxes with the values shown below.
    - Size: 65.28mm x 55.83mm
    - Quantity: Match quantity in step 3.
    - Leave all the following options alone.
    ![Third Step of PCBWay order](./img/pcbWay03.PNG)
-7. Scroll to the bottom of the page and click calculate
-8. The right side of the web page will update the cost.
+
+6. Scroll to the bottom of the page and click calculate
+7. The right side of the web page will update the cost.
    - Click **Save To Cart**
    - Agree to the Special Notes
    ![Fourth Step of PCBWay order](./img/pcbWay04.PNG)
-9.In the upload files pop-up
+
+8.In the upload files pop-up
 - Click **Upload Gerber file** and upload
   [Gerber zip](https://github.com/coulston/Embedded-Systems-Instructor/blob/main/Manufacturing%20Files/gerber.zip)
 - Click **Part List (BOM) Upload** and upload
   [BOM excel](https://github.com/coulston/Embedded-Systems-Instructor/blob/main/Manufacturing%20Files/devBoard%20BOM%20PCBWay.xlsx)
 - Click **Upload Centroid File** and upload
   [Centroid excel](https://github.com/coulston/Embedded-Systems-Instructor/blob/main/Manufacturing%20Files/devBoard%20CPL%20PCBWay.xlsx)
-  
+
+
+9. Click Submitt Order Now
+10. You should hear back from the PCBWay engineers in 48 hours.
+
+
+## Step 3: SD Card Holder
+As ordered, the development boards do not come with the SD Cards because they are mounted to the bottom of the 
+board. Hence, these have to be ordred and hand soldered using the following instructions.
+1. Order 1 SD Card holder fro each development board from [DigiKey] (http://www.digikey.com) part number WM12834CT-ND
+2. Solder the SD card holder
+- Solder the 9 pins
+- Solder the 4 mounting tabs (essential)
+
+  ![Picture of soldered SD Card](./img/sdCardHolder.jpg)
