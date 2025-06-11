@@ -64,11 +64,11 @@ button when yoy have verified these selections.
 
 8.In the upload files pop-up
 - Click **Upload Gerber file** and upload
-  [Gerber zip](https://github.com/coulston/Embedded-Systems-Instructor/blob/main/Manufacturing%20Files/gerber.zip)
+  [Gerber zip](https://github.com/coulston/Embedded-Systems-Instructor/blob/main/hardware/devBoard/manufacture/devBoard.zip)
 - Click **Part List (BOM) Upload** and upload
-  [BOM excel](https://github.com/coulston/Embedded-Systems-Instructor/blob/main/Manufacturing%20Files/devBoard%20BOM%20PCBWay.xlsx)
+  [BOM excel](https://github.com/coulston/Embedded-Systems-Instructor/blob/main/manufacture/devBoard%20BOM%20PCBWay.xlsx)
 - Click **Upload Centroid File** and upload
-  [Centroid excel](https://github.com/coulston/Embedded-Systems-Instructor/blob/main/Manufacturing%20Files/devBoard%20CPL%20PCBWay.xlsx)
+  [Centroid excel](https://github.com/coulston/Embedded-Systems-Instructor/blob/main/manufacture/devBoard%20CPL%20PCBWay.xlsx)
 
 
 9. Click Submitt Order Now
