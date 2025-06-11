@@ -63,13 +63,16 @@ button when yoy have verified these selections.
    ![Fourth Step of PCBWay order](./img/pcbWay04.PNG)
 
 8.In the upload files pop-up
-- Click **Upload Gerber file** and upload
+>[!NOTE] 
+>The files are at the links provided.  Download the files to your local machine by clicking on the download raw file
+>icon ![Download Raw File Icon](./img/downloadRawFile.png) in the upper right of the window.
+- Click **Upload Gerber file** and upload. 
   [Gerber zip](https://github.com/coulston/Embedded-Systems-Instructor/blob/main/hardware/devBoard/manufacture/devBoard.zip)
 - Click **Part List (BOM) Upload** and upload
   [BOM excel](https://github.com/coulston/Embedded-Systems-Instructor/blob/main/manufacture/devBoard%20BOM%20PCBWay.xlsx)
 - Click **Upload Centroid File** and upload
   [Centroid excel](https://github.com/coulston/Embedded-Systems-Instructor/blob/main/manufacture/devBoard%20CPL%20PCBWay.xlsx)
-
+- 
 
 9. Click Submitt Order Now
 10. You should hear back from the PCBWay engineers in 48 hours.
