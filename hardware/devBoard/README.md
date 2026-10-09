@@ -10,7 +10,7 @@ event, you will need to adapt the instructions to the current interface.
 ## Step 1: Verify BOM through Digikey
 You will be providing PCBWay with the bill of materials (BOM) using parts
 found on Digikey.  It is possible that the parts in the existing 
-[BOM](https://github.com/coulston/Embedded-Systems-Instructor/blob/main/Manufacturing%20Files/devBoard%20BOM%20PCBWay.xlsx) 
+[BOM](https://github.com/coulston/Embedded-Systems-Instructor/blob/main/manufacture/hardware/devBoard%20BOM.xlsx) 
 contains parts that are out of stock or have become obselete
 since the last order.  Resolving these issues before sending the BOM to 
 PCBWay will eliminate a lot of back-and-forth.
@@ -18,7 +18,7 @@ PCBWay will eliminate a lot of back-and-forth.
 1. Login to [DigiKey](https://www.digikey.com/).
 2. Start a new cart by clicking on the cart icon in the upper right corner of the web page.
 3. Upload the
-[BOM](https://github.com/coulston/Embedded-Systems-Instructor/blob/main/Manufacturing%20Files/devBoard%20BOM%20PCBWay.xlsx)
+[BOM](https://github.com/coulston/Embedded-Systems-Instructor/blob/main/hardware/devBoard/manufacture/devBoard%20BOM.xlsx)
 file via drag-and-drop of browse for BOM.
 ![First Step of DigiKey BOM check](./img/bomCheck01.PNG)
 
@@ -69,9 +69,9 @@ button when yoy have verified these selections.
 - Click **Upload Gerber file** and upload. 
   [Gerber zip](https://github.com/coulston/Embedded-Systems-Instructor/blob/main/hardware/devBoard/manufacture/devBoard.zip)
 - Click **Part List (BOM) Upload** and upload
-  [BOM excel](https://github.com/coulston/Embedded-Systems-Instructor/blob/main/manufacture/devBoard%20BOM%20PCBWay.xlsx)
+  [BOM excel](https://github.com/coulston/Embedded-Systems-Instructor/blob/main/hardware/devBoard/manufacture/devBoard%20BOM.xlsx)
 - Click **Upload Centroid File** and upload
-  [Centroid excel](https://github.com/coulston/Embedded-Systems-Instructor/blob/main/manufacture/devBoard%20CPL%20PCBWay.xlsx)
+  [Centroid excel](https://github.com/coulston/Embedded-Systems-Instructor/blob/main/hardware/devBoard/manufacture/devBoard%20CPL.xlsx)
 - 
 
 9. Click Submitt Order Now
